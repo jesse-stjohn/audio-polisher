@@ -1,0 +1,20 @@
+<body>
+    <h1>Video Audio Polisher</h1>
+    <p>Select a video, polish its audio, and save a new copy.</p>
+
+    <input type="file" id="videoFile" accept="video/*">
+    <br><br>
+    <button id="polishBtn" disabled>Polish Audio</button>
+
+    <br><br>
+    <video id="originalVideo" controls width="480" hidden></video>
+    <audio id="polishedAudio" controls hidden></audio>
+
+
+    <p id="status">No video selected yet.</p>
+
+    <a id="downloadLink" hidden>Download polished video</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.11.0/dist/ffmpeg.min.js"></script>
+    <script src="app.js"></script>
+</body>
