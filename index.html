@@ -1,4 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Video Audio Polisher</title>
+
+    <style>
+        html {
+            background: #e9e9ec;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 560px;
+            margin: 24px auto;
+            padding: 24px;
+            background: #ffffff;
+            color: #1c1c1e;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 26px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background: #0a6cff;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background: #b9c4d0;
+            cursor: default;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            margin: 8px 0;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            margin-top: 12px;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 12px;
+        }
+
+        #status {
+            margin-top: 14px;
+        }
+
+        #downloadLink {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
 <body>
+
     <h1>Video Audio Polisher</h1>
     <p>Select a video, polish its audio, and save a new copy.</p>
 
@@ -18,3 +91,64 @@
     <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.11.0/dist/ffmpeg.min.js"></script>
     <script src="app.js"></script>
 </body>
+<style>
+    html {
+        background: #e9e9ec;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 560px;
+        margin: 24px auto;
+        padding: 24px;
+        background: #ffffff;
+        color: #1c1c1e;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+        margin-top: 0;
+        font-size: 26px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        background: #0a6cff;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    button:disabled {
+        background: #b9c4d0;
+        cursor: default;
+    }
+
+    input[type="file"] {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+    }
+
+    audio {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    #status {
+        margin-top: 14px;
+    }
+
+    #downloadLink {
+        font-weight: bold;
+    }
+</style>
